@@ -1,6 +1,7 @@
 import express from "express";
 import { readFile, writeFile } from "fs/promises";
 import { existsSync } from "fs";
+import cors from "cors";
 
 const app = express();
 
